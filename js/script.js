@@ -84,7 +84,7 @@ function reset_formas(e) {
     formas_resultado = "";
     texto.innerHTML = "";
     reset_formas(this);
- })
+})
  b_circulo.addEventListener("click", () => {
     formas_resultado += "0 "
     if (formas_resultado !== formas_requerido) {
@@ -95,6 +95,7 @@ function reset_formas(e) {
         texto.innerHTML = "¡Completado!";
         formas_resultado = "";
         reset_formas(this);
+        
     }
 
     if (auto_delete === "y") {

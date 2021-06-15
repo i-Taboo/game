@@ -79,8 +79,29 @@ margin-top: 1.5%;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.514);;
 }
 .forma:hover{
-    box-shadow: -10px -5px 5px black;;
+    box-shadow: -10px -5px 5px black;
     background-color: rgba(66, 66, 66, 0.5);
 }
 
  
+@media screen and (max-width:1080px){
+.forma{ 
+    width: 24%;
+    margin-left: 2%;
+}
+.formas_panel{
+    width: 50%;
+}
+.formas_pantalla{
+    height: 80%;
+}
+.reset{
+    height: 80%;
+}
+.forma:hover{
+    box-shadow: -5px -3px 3px black;
+}
+.reset:hover{
+    box-shadow: -2px -1px 1px black;;
+}
+}
